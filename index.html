@@ -1,0 +1,36 @@
+<html>
+    <head>
+    </head>
+    <body>
+        <div class="input-table">
+            <label for="MedInc">Med Inc: </label>
+            <input type="text" id="MedInc">
+            <br>
+            <label for="HouseAge">House Age: </label>
+            <input type="text" id="HouseAge">
+            <br>
+            <label for="AveRooms">Average Rooms: </label>
+            <input type="text" id="AveRooms">
+            <br>
+            <label for="AveBedrms">Average Bedrooms: </label>
+            <input type="text" id="AveBedrms">
+            <br>
+            <label for="Population">Population: </label>
+            <input type="text" id="Population">
+            <br>
+            <label for="AveOccup">Average Occupancy: </label>
+            <input type="text" id="AveOccup">
+            <br>
+            <label for="Latitude">Latitude: </label>
+            <input type="text" id="Latitude">
+            <br>
+            <label for="Longitude">Longitude: </label>
+            <input type="text" id="Longitude">
+        </div>
+
+        <button id="Predict" onclick="predictPrice()">Predict Price</button>
+        <p id="Prediction">Predicted Price: </p>
+        <div id="history"></div>
+    </body>
+    <script src="House_Price_Predictor.js"></script>
+</html>
