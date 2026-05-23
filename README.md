@@ -1,6 +1,8 @@
 # Full-Stack-ML-project---House-Price-Predictor
 Frontend: Javascript, Backend: Python
 
+Tech stack: Python, TensorFlow, Keras, NumPy, Pandas, Scikit-learn, Flask, MongoDB, PyMongo, JavaScript, HTML, CSS
+
 1. Cleaned and preprocessed with NumPy
 2. Built and trained a TensorFlow neural network
 3. Saved predictions to MongoDB
